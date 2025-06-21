@@ -102,10 +102,10 @@ body {
 .header-menu-button {
     border: none;
     position: absolute;
-    top: 30px;
+    top: 20px;
     right: 24px;
-    width: 30px;
-    height: 36px;
+    width: 45px;
+    height: 45px;
     overflow: hidden;
     color: transparent;
     background: url(../../public/images/bg_menu.png) center center no-repeat;
@@ -167,10 +167,6 @@ body {
         height: 100%;
         background: linear-gradient(to top, color.$bg-dark, rgba(6, 84, 113, 0));
     }
-}
-
-.drawer-bottom-logo {
-    display: none;
 }
 
 .drawer-contact-button {

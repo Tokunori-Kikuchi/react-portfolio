@@ -100,10 +100,10 @@ body.is-fixed {
 .header-menu-button {
   border: none;
   position: absolute;
-  top: 30px;
+  top: 20px;
   right: 24px;
-  width: 30px;
-  height: 36px;
+  width: 45px;
+  height: 45px;
   overflow: hidden;
   color: transparent;
   background: url(../../public/images/bg_menu.png) center center no-repeat;
@@ -174,10 +174,6 @@ body.is-fixed {
   height: 100%;
   background: -webkit-gradient(linear, left bottom, left top, from(#065471), to(rgba(6, 84, 113, 0)));
   background: linear-gradient(to top, #065471, rgba(6, 84, 113, 0));
-}
-
-.drawer-bottom-logo {
-  display: none;
 }
 
 .drawer-contact-button {
