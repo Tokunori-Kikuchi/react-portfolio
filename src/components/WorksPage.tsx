@@ -18,10 +18,10 @@ const WorksPage = () => {
                     <ul className="works-list swiper-wrapper">
                         <li className="works-item swiper-slide">
                             <div className="works-item-img">
-                                <img src="/images/img_works001.jpg" alt="ポートフォリオサイト"/>
+                                <img src="/images/img_works001.jpg" alt="合同会社tocoton"/>
                             </div>
-                            <h3 className="works-item-name">ポートフォリオサイト</h3>
-                            <Link to="#" target="_blank" className="works-item-link">詳しく見る</Link>
+                            <h3 className="works-item-name">ｔｏｃｏｔｏｎ様公式サイト</h3>
+                            <Link to="https://tocoton-tokyo.com/" target="_blank" className="works-item-link">詳しく見る</Link>
                         </li>
                         <li className="works-item swiper-slide">
                             <div className="works-item-img">

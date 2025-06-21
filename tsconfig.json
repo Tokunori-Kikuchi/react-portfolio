@@ -1,20 +1,22 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "lib": ["dom", "es6", "esnext", "DOM.Iterable"],
+        "lib": ["dom", "es6", "esnext", "DOM.Iterable"], // "es2015.iterable" も検討可能
         "allowJs": true,
         "skipLibCheck": true,
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
         "strict": true,
         "forceConsistentCasingInFileNames": true,
-        "noEmit": true,
-        "isolatedModules": true,
-        "jsx": "react-jsx"
+        "noEmit": true, // Create React App などでビルドをBabelに任せている場合
+        "isolatedModules": true, // Babelがファイル単位でトランスパイルする場合に推奨
+        "jsx": "react-jsx",
+        "downlevelIteration": true
     },
     "include": [
-        "src"
-, "pages/api"    ],
+        "src",
+        "pages/api" // Next.js プロジェクトの可能性
+    ],
     "exclude": [
         "node_modules"
     ]
