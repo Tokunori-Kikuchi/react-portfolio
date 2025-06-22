@@ -43,7 +43,7 @@ const FirstView = () => {
           <SwiperSlide key={work.id}>
             <div className="slide-inner-content">
               <div className="slide-text-content">
-                <img src={work.logo} alt={`${work.title} logo`} className="work-logo" />
+                <img src={process.env.PUBLIC_URL + work.logo} alt={`${work.title} logo`} className="work-logo" />
                 <h3 className="work-title">{work.title}</h3>
                 <div className="work-tags">
                   {work.tags.map((tag, index) => (
@@ -60,7 +60,7 @@ const FirstView = () => {
                 </a>
               </div>
               <div className="slide-visual-content">
-                <img src={work.image} alt={work.title} className="work-image" />
+                <img src={process.env.PUBLIC_URL + work.image} alt={work.title} className="work-image" />
               </div>
             </div>
           </SwiperSlide>

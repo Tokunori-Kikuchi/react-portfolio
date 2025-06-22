@@ -14,21 +14,21 @@ const ServicePage = () => {
                 <ul className="service-list">
                     <li className="service-item">
                         <div className="service-item-img">
-                            <img src="/images/img_service1.svg" alt="ホームページ制作" />
+                            <img src={process.env.PUBLIC_URL + '/images/img_service1.svg'} alt="ホームページ制作" />
                         </div>
                         <h3 className="service-item-name">ホームページ制作</h3>
                         <p className="service-item-text">ご要望に応じて柔軟にご提案させていただきます。目的を達成するためのホームページを一緒に作成していきましょう！</p>
                     </li>
                     <li className="service-item">
                         <div className="service-item-img">
-                            <img src="/images/img_service2.svg" alt="ホームページ修正" />
+                            <img src={process.env.PUBLIC_URL + '/images/img_service2.svg'} alt="ホームページ修正" />
                         </div>
                         <h3 className="service-item-name">ホームページ修正</h3>
                         <p className="service-item-text">文言の変更や表示崩れなど、ホームページでのちょっとしたお困りごとに対応いたします。</p>
                     </li>
                     <li className="service-item">
                         <div className="service-item-img">
-                            <img src="/images/img_service3.svg" alt="ホームページ相談" />
+                            <img src={process.env.PUBLIC_URL + '/images/img_service3.svg'} alt="ホームページ相談" />
                         </div>
                         <h3 className="service-item-name">ホームページ相談</h3>
                         <p className="service-item-text">ホームページ制作に関するご相談を無料でお受けしております。些細なことでもお気軽にご相談ください！</p>

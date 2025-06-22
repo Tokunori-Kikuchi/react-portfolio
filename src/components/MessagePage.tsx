@@ -7,7 +7,7 @@ const MessagePage = () => {
         <div className="section-inner">
             <div className="message-container">
                 <div className="message-img">
-                    <img src="/images/img_message2.jpg" alt="ご依頼をお考えの方へ" />
+                    <img src={process.env.PUBLIC_URL + '/images/img_message2.jpg'} alt="ご依頼をお考えの方へ" />
                 </div>
                 <div className="message-contents">
                     <h2 className="section-head">

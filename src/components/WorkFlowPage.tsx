@@ -15,7 +15,7 @@ const WorkFlowPage = () => {
                     <li className="flow-item">
                         <p className="flow-item-num">1</p>
                         <div className="flow-item-img">
-                            <img src="/images/img_flow1.svg" alt="ご相談・お見積り" />
+                            <img src={process.env.PUBLIC_URL + '/images/img_flow1.svg'} alt="ご相談・お見積り" />
                         </div>
                         <h3 className="flow-item-name">ご相談・お見積り</h3>
                         <p className="flow-item-text">要件や納期、予算などお気軽にご相談ください。<br />対応内容に応じてお見積りをお送りいたします。</p>
@@ -23,7 +23,7 @@ const WorkFlowPage = () => {
                     <li className="flow-item">
                         <p className="flow-item-num">2</p>
                         <div className="flow-item-img">
-                            <img src="/images/img_flow2.svg" alt="コーディング" />
+                            <img src={process.env.PUBLIC_URL + '/images/img_flow2.svg'} alt="コーディング" />
                         </div>
                         <h3 className="flow-item-name">コーディング</h3>
                         <p className="flow-item-text">デザインカンプを元にコーディングを行います。<br />コーディング後は品質チェックを行い調整します。</p>
@@ -31,7 +31,7 @@ const WorkFlowPage = () => {
                     <li className="flow-item">
                         <p className="flow-item-num">3</p>
                         <div className="flow-item-img">
-                            <img src="/images/img_flow3.svg" alt="確認" />
+                            <img src={process.env.PUBLIC_URL + '/images/img_flow3.svg'} alt="確認" />
                         </div>
                         <h3 className="flow-item-name">確認</h3>
                         <p className="flow-item-text">お客様にコーディングしたサイトをご確認頂きます。<br />不足部分の修正と対応を行います。</p>
@@ -39,7 +39,7 @@ const WorkFlowPage = () => {
                     <li className="flow-item">
                         <p className="flow-item-num">4</p>
                         <div className="flow-item-img">
-                            <img src="/images/img_flow4.svg" alt="納品" />
+                            <img src={process.env.PUBLIC_URL + '/images/img_flow4.svg'} alt="納品" />
                         </div>
                         <h3 className="flow-item-name">納品</h3>
                         <p className="flow-item-text">コーディング後のファイル一式を納品いたします。<br />本番サーバーへのアップロードも対応可能です。</p>

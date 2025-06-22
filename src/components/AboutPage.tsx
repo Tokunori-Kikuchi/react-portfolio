@@ -12,7 +12,7 @@ const AboutPage = () => {
             <span>TOKU</span>
           </div>
           <div className="about-photo">
-            <img src="/images/img_aboutme.jpg" alt="TOKU" />
+            <img src={process.env.PUBLIC_URL + '/images/img_aboutme.jpg'} alt="TOKU" />
           </div>
         </div>
         <div className="about-right">

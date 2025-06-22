@@ -78,7 +78,7 @@ const Header = () => {
               className="header-nav-Link"
               onClick={handleNavClick}
             >
-              <img src="/images/logo.png" alt="サイトロゴ" />
+              <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="サイトロゴ" />
             </ScrollLink>
           </div>
         </div>
@@ -125,7 +125,7 @@ const Header = () => {
             </ScrollLink>
             <div className="drawer-bottom-logo">
               <ScrollLink to="fv" smooth={true} duration={500} offset={-80} onClick={handleNavClick}>
-                <img src="/images/logo.png" alt="WebWiseWords" />
+                <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="WebWiseWords" />
               </ScrollLink>
             </div>
           </div>
