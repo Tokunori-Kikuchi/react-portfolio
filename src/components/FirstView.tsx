@@ -18,11 +18,13 @@ const FirstView = () => {
             静的なHTMLコーディングからWordPress化まで対応可能。
             <br />
             デザインカンプの意図をしっかりと理解した上で、迅速、丁寧な対応コーディング業務をサポート！
+            <br />
+            <span>※閲覧時に求められるIDとパスワードは「basic」と入力してください。</span>
           </p>
         </div>
         <div className="fv-right">
             <a href="https://twitter.com/your_twitter_account" target="_blank" rel="noopener noreferrer" className="follow-us">
-                FOLLOW US
+                FOLLOW ME
             </a>
         </div>
       </div>

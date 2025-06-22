@@ -264,6 +264,9 @@ body.is-fixed {
   font-size: 16px;
   line-height: 1.6;
 }
+.fv-left-description span {
+  color: #ff0000;
+}
 
 .fv-right {
   writing-mode: vertical-rl;
@@ -291,7 +294,7 @@ body.is-fixed {
   width: 100%;
 }
 .fv-swiper .swiper-slide {
-  background: #065471;
+  background: linear-gradient(135deg, #065471 0%, #0a7bad 100%);
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
   overflow: hidden;
@@ -500,6 +503,7 @@ body.is-fixed {
 .section-head-main {
   font-size: 40px;
   letter-spacing: 0.1em;
+  color: #065471;
 }
 
 .section-head-sub {
@@ -517,6 +521,10 @@ body.is-fixed {
 
 /* #service
 ========================= */
+.service {
+  background-color: #F0F8FB;
+}
+
 .service-item + .service-item {
   margin-top: 40px;
 }
@@ -610,6 +618,10 @@ body.is-fixed {
 
 /* #about
 ========================= */
+.about {
+  background-color: #065471;
+}
+
 .about-img {
   margin-bottom: 32px;
 }
@@ -705,6 +717,10 @@ body.is-fixed {
   color: #fff;
   text-align: center;
   padding: 14px 20px;
+}
+
+.contact-head-main {
+  color: #fff;
 }
 
 .contact-container {
@@ -1380,4 +1396,255 @@ button:disabled {
     font-size: 16px;
     padding: 12px 30px;
   }
+}
+/* AboutPage 新デザイン用 ========================= */
+.about-section {
+  background: #065471;
+  min-height: 100vh;
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-head-main {
+  color: #fff;
+}
+
+.about-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+  border: 3px solid #fbbd45;
+  display: flex;
+  max-width: 1100px;
+  width: 90vw;
+  min-height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 320px;
+  background: transparent;
+  position: relative;
+  padding: 40px 0 40px 40px;
+}
+
+.about-vertical-name {
+  position: static;
+  font-size: 24px;
+  letter-spacing: 0.08em;
+  color: #fbbd45;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.1;
+  margin: 0 auto 12px auto;
+  padding: 0;
+  height: auto;
+  width: auto;
+  letter-spacing: 0.18em;
+  margin-bottom: 16px;
+}
+
+.about-photo {
+  width: 320px;
+  height: 320px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.13);
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-photo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about-right {
+  flex: 1;
+  padding: 56px 56px 56px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  letter-spacing: 0.1em;
+}
+
+.about-profile {
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 32px;
+  line-height: 1.8;
+}
+
+.about-hobby, .about-skill {
+  margin-bottom: 24px;
+}
+
+.about-label {
+  background: #065471;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px 22px;
+  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+  display: inline-block;
+}
+
+.about-hobby-list {
+  font-size: 17px;
+  color: #222;
+  margin-top: 8px;
+  margin-bottom: 0;
+  letter-spacing: 0.1em;
+}
+
+.about-skill-list {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.about-skill-tag {
+  background: #f5f5f5;
+  color: #b0b0b0;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 16px;
+  padding: 7px 18px;
+  letter-spacing: 0.08em;
+  border: none;
+  display: inline-block;
+}
+
+.about-sns {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.about-sns-label {
+  font-size: 16px;
+  color: #065471;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+  margin-right: 8px;
+}
+
+.about-sns-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(6, 84, 113, 0.1);
+  border: 2px solid #065471;
+  transition: background 0.2s;
+}
+
+.about-sns-link:hover {
+  background: #fbbd45;
+}
+
+@media (max-width: 900px) {
+  .about-card {
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+    width: 98vw;
+    padding: 0;
+  }
+  .about-left {
+    flex-direction: row;
+    min-width: 0;
+    padding: 32px 0 0 0;
+    justify-content: flex-start;
+  }
+  .about-photo {
+    width: 180px;
+    height: 180px;
+  }
+  .about-vertical-name {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-right: 8px;
+  }
+  .about-right {
+    padding: 32px 18px 32px 18px;
+  }
+}
+@media (max-width: 600px) {
+  .about-section {
+    padding: 16px 0;
+  }
+  .about-card {
+    border-width: 2px;
+    width: 100vw;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .about-left {
+    padding: 18px 0 0 0;
+  }
+  .about-photo {
+    width: 120px;
+    height: 120px;
+  }
+  .about-title {
+    font-size: 22px;
+  }
+  .about-profile {
+    font-size: 15px;
+  }
+  .about-label {
+    font-size: 13px;
+    padding: 4px 12px;
+  }
+  .about-skill-tag {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  .about-sns {
+    margin-top: 18px;
+  }
+}
+.about-section-head {
+  position: relative;
+  z-index: 2;
+  background: #065471;
+  text-align: center;
+  padding-top: 24px;
+  margin-bottom: 18px;
+}
+
+.section-head-main {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 0.18em;
+  margin-bottom: 6px;
+  border-bottom: 4px solid #fbbd45;
+  padding: 0 18px 6px 18px;
 }

@@ -23,7 +23,6 @@ const App: React.FC = ()=> {
           <main className="main">
             <FirstView />
             <ServicePage />
-            <WorksPage />
             <AboutPage />
             <WorkFlowPage />
             <MessagePage />

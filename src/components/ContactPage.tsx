@@ -261,7 +261,7 @@ const ContactPage = () => {
 
             <div className="contact-head">
                 <h2 className="section-head">
-                    <span className="section-head-main">Contact -</span>
+                    <span className="section-head-main contact-head-main">Contact -</span>
                     <span className="section-head-sub">お問い合わせ</span>
                 </h2>
                 <p className="section-lead-text">お仕事のご依頼は、以下の内容を<br />ご記入いただき送信してください。</p>
