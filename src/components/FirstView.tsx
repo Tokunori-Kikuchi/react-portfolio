@@ -50,6 +50,14 @@ const FirstView = () => {
                     <span key={index} className="work-tag">{tag}</span>
                   ))}
                 </div>
+                <a
+                  href={work.url}
+                  className="work-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  詳しく見る
+                </a>
               </div>
               <div className="slide-visual-content">
                 <img src={work.image} alt={work.title} className="work-image" />

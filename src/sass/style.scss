@@ -407,9 +407,20 @@ body {
 }
 
 .work-link {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 8px 22px;
+    background: #065471;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: bold;
     text-decoration: none;
-    color: inherit;
-    display: block;
+    transition: background 0.2s, color 0.2s;
+    font-size: 15px;
+}
+.work-link:hover {
+    background: #fbbd45;
+    color: #065471;
 }
 
 .slide-content {
